@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableBinding(Source.class)
-public class JointechController {
+public class UserController {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(JointechController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
 
     @Autowired
